@@ -8,6 +8,8 @@ import TabBarBackground from '@/components/ui/TabBarBackground';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
+import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
+
 export default function TabLayout() {
   const colorScheme = useColorScheme();
 
@@ -34,10 +36,10 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="meeting"
         options={{
           title: 'Meetings',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="people-line.fill" color={color} />,
         }}
       />
     </Tabs>

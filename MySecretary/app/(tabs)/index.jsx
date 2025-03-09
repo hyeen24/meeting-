@@ -9,7 +9,7 @@ const index = () => {
         source={meetingRoomImg}
         style={styles.image}>
 
-      <Text style={styles.text}>Meeting Room</Text>
+      <Text style={styles.text}>My Secretary</Text>
       </ImageBackground>
     </View>
   )
